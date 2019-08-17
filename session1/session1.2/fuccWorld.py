@@ -1,1 +1,0 @@
-print('fucc World')

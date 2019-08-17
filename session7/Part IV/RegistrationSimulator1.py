@@ -1,0 +1,5 @@
+print("Follow the instructions to sign up.")
+a = input("Username : ")
+b = input("Password : ")
+c = input("Email : ")
+print("Account successfully registered.")

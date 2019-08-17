@@ -1,0 +1,1 @@
+print('fucc World')

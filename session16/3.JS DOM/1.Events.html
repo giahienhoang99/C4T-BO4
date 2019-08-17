@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Events</title>
+</head>
+<body onload="bodyLoaded()">
+    <button onclick="onClick()">Click here</button>
+    <br>
+    <h1 id="myH1">This is unedited</h1>
+    <button onclick="onClickChange()">Click here to change color and text</button>
+    <script>
+        function bodyLoaded() {
+            console.log("Body loaded");
+        }  
+        function onClick() {
+            console.log("Clicked");
+        }
+        function onClickChange() {
+            document.getElementById("myH1").style.color = "red";
+            document.getElementById("myH1").innerHTML = "Tadaa! The text has been edited!"
+        }
+    </script>
+</body>
+</html>
